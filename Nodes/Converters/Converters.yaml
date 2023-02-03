@@ -1,0 +1,77 @@
+Name: Converters
+Type: FolderType
+Children:
+- Name: ColorConvert1
+  Id: g=3b13803969473e015e0e9cc22566c48c
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"#ff0000"}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ff0000"
+    - Name: Pair1
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"#00ff00"}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00ff00"
+    - Name: Pair2
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"#ffffff"}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: Pair3
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"#000000"}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+    - Name: Pair4
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"#0000ff"}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0000ff"
+    - Name: Pair5
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"#00000000"}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
